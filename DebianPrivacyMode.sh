@@ -40,8 +40,9 @@ traverso vlc whois wireshark \
 xul-ext-torbirdy xul-ext-ublock-origin zip \
 zulucrypt-cli zulucrypt-gui
 
-# or remove packages from this list manually. If you don't use your workstation as FTP-server, Telnet-server, etc., remove it. For example: # apt remove jboss-autopwn
+# or remove packages from this list manually. If you don't use your workstation as file storage server, FTP-server, Telnet-server, etc., remove it. For example: # apt remove jboss-autopwn
 apt -y remove avahi-daemon cups minissdpd \
 nfspy rpcbind samba samba-common telnet \
-tracker virt-viewer vlc-plugin-samba
+tracker virt-viewer vlc-plugin-samba && \
+apt -y autoremove
 apt update && apt -y dist-upgrade
