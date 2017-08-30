@@ -25,16 +25,18 @@ deb  tor+http://vwakviie2ienjx6t.onion/debian          stretch-backports  main c
 apt update && apt -y dist-upgrade && apt -y install aircrack-ng audacity bleachbit \
 brasero build-essential gcc gcr \
 cpp cpp-6 cryptsetup cryptsetup-bin \
-curl dasher dirmngr g++ gimp \
+curl dasher dirmngr \
+etherape g++ gimp \
 geoip-database git \
-gnupg gnupg1 gnupg2 \
-gpgv gtkhash inkscape keepassx libgpg-error0 \
+gnupg gnupg1 gnupg2 gobby \
+gpgv gtkhash inkscape keepassx 
+keyringer libgpg-error0 \
 libgpgme11 hopenpgp-tools libgpgmepp-doc \
-libssh-gcrypt-4 liferea macchanger \
-macchanger-gtk make mat net-tools nmap \
+libssh-gcrypt-4 liferea luksipc macchanger \
+make mat monkeysign net-tools nmap \
 onioncircuits openpgp-applet openssl \
-pidgin pitivi seahorse \
-scdaemon tor torchat transmission \
+paperkey pidgin pitivi pwgen seahorse \
+scdaemon ssss tor torchat transmission \
 traverso vlc whois wireshark \
 xul-ext-https-everywhere xul-ext-torbirdy xul-ext-ublock-origin \
 xul-ext-noscript xul-ext-self-destructing-cookies zip \
