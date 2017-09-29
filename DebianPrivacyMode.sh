@@ -34,7 +34,8 @@ keyringer libgpg-error0 \
 libgpgme11 hopenpgp-tools libgpgmepp-doc \
 libssh-gcrypt-4 liferea luksipc macchanger \
 make mat monkeysign net-tools nmap \
-onioncircuits openpgp-applet openssl \
+obfsproxy obfs4proxy onioncircuits \
+openpgp-applet openssl \
 paperkey pidgin pitivi pwgen seahorse \
 scdaemon ssss tor torchat transmission \
 traverso vlc whois wireshark \
